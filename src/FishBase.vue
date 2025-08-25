@@ -18,7 +18,7 @@ defineEmits(['click']);
   >
     <img
       class="fish-image"
-      :src="`/${type}.png`"
+      :src="`${type}.png`"
       alt="Fish"
       :class="{ 'selected': selected }"
     />
