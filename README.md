@@ -11,7 +11,7 @@ Aquário virtual funcional criado com Vue.js, permitindo adicionar peixes, alime
 
 ## 🌐 Demo Online
 
-Acesse o projeto rodando no GitHub Pages: [https://seu-usuario.github.io/virtual-aquarium/](https://seu-usuario.github.io/virtual-aquarium/)
+Acesse o projeto rodando no GitHub Pages: [https://willvitorino.github.io/virtual-aquarium/](https://willvitorino.github.io/virtual-aquarium/)
 
 ## 🚀 Funcionalidades
 
