@@ -218,7 +218,7 @@ watch(() => props.peixes.length, updateFishPositions);
 
 <style scoped>
 .aquarium {
-  background-image: url('fundo-aquario.png');
+  background-image: url('/fundo-aquario.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
