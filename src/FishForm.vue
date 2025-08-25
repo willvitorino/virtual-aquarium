@@ -54,11 +54,18 @@ const handleAddFish = () => {
     </div>
 
     <div
-      v-if="selectedFishType"
       class="fish-name-container flex flex-col items-center justify-center w-full p-4"
+      :class="{ 'hidden': !selectedFishType }"
     >
       <h1 class="text-lg text-center mb-4 font-bold text-white">Nome do peixe:</h1>
-      <input type="text" v-model="fishName" class="w-full p-2 rounded-md mb-2" placeholder="Digite o nome do peixe" />
+      <input
+        type="text"
+        v-model="fishName"
+        class="w-full p-2 rounded-md mb-2"
+        placeholder="Digite o nome do peixe"
+        @keyup.enter="handleAddFish"
+      />
+
       <button
         class="bg-blue-500 text-white p-2 rounded-md w-full disabled:opacity-50 disabled:cursor-not-allowed"
         :disabled="!fishName"
