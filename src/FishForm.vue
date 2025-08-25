@@ -37,7 +37,7 @@ const handleAddFish = () => {
 </script>
 
 <template>
-  <div class="fish-form w-[100%] h-full bg-blue-300">
+  <div class="fish-form bg-blue-300">
     <div class="fish-types-container">
       <label class="text-lg text-center font-bold text-white w-full flex justify-center">Peixes:</label>
       <label class="text-sm text-center mb-4 text-white w-full flex justify-center">(Escolha um peixe)</label>
