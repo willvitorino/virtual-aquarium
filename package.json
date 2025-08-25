@@ -1,6 +1,23 @@
 {
   "name": "challenge-1",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "William Vitorino <williamvitorino3@gmail.com>",
+  "homepage": "https://williamvitorino.github.io/virtual-aquarium",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamvitorino/virtual-aquarium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/williamvitorino/virtual-aquarium/issues"
+  },
+  "keywords": [
+    "virtual-aquarium",
+    "aquarium",
+    "fish",
+    "aquarium-game",
+    "aquarium-simulation"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
