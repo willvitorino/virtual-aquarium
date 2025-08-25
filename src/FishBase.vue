@@ -5,7 +5,7 @@ defineOptions({
 
 const isInProduction = import.meta.env.PROD;
 
-const imagePath = isInProduction ? 'virtual-aquarium' : '';
+const imagePath = isInProduction ? '/virtual-aquarium' : '';
 
 defineProps<{
   type: string;
