@@ -53,16 +53,16 @@ const handleAddFish = () => {
       </div>
     </div>
 
-    <div
-      class="fish-name-container flex flex-col items-center justify-center w-full p-4"
-      :class="{ 'hidden': !selectedFishType }"
-    >
+    <div class="fish-name-container flex flex-col items-center justify-center w-full p-4">
       <h1 class="text-lg text-center mb-4 font-bold text-white">Nome do peixe:</h1>
+
       <input
         type="text"
         v-model="fishName"
         class="w-full p-2 rounded-md mb-2"
         placeholder="Digite o nome do peixe"
+        :readonly="!selectedFishType"
+        :disabled="!selectedFishType"
         @keyup.enter="handleAddFish"
       />
 
