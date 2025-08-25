@@ -3,6 +3,10 @@ defineOptions({
   name: 'FishBase'
 });
 
+const isInProduction = import.meta.env.PROD;
+
+const imagePath = isInProduction ? 'virtual-aquarium' : '';
+
 defineProps<{
   type: string;
   selected: boolean;
@@ -18,7 +22,7 @@ defineEmits(['click']);
   >
     <img
       class="fish-image"
-      :src="`${type}.png`"
+      :src="`${imagePath}/${type}.png`"
       alt="Fish"
       :class="{ 'selected': selected }"
     />
